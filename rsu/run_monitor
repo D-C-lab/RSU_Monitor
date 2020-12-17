@@ -1,12 +1,9 @@
 #!/bin/bash
 
-<<<<<<< HEAD
 mvn -f ./monitor-test/pom3.xml clean package
 
 java -jar ./monitor-test/target/monitor-test-1.0-SNAPSHOT.jar
 
-=======
 mvn -f ./ws-test/pom3.xml clean package
 
 java -jar ./ws-test/target/ws-test3-1.0-SNAPSHOT.jar
->>>>>>> 89e7883ed82654ffad8d721cf1d01ed91243a357

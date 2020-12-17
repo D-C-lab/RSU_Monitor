@@ -23,7 +23,7 @@ public class RsuMonitor {
                     String line = null;
                     
                     while((line=bufferedReader.readLine()) != null) {
-                        System.out.println(line);
+                        System.out.println("container" + line);
                     }
                     System.out.printf("\n"); 
                                         
@@ -39,7 +39,7 @@ public class RsuMonitor {
         };
 
         Timer timer = new Timer();
-        timer.schedule(ctTimer, 0, 1000); // 1초마다 차량의 시간 체크.   
+        timer.schedule(ctTimer, 0, 500); // 1초마다 차량의 시간 체크.   
          
     }
 }
